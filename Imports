@@ -1,0 +1,8 @@
+mkdir alpine-tides-jewelry
+cd alpine-tides-jewelry
+
+npx create-react-app .
+
+npm install lucide-react
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
